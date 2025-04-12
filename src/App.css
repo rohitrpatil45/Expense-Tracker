@@ -36,6 +36,13 @@ main {
     outline: none;
 }
 
+.cartory-option{
+    font: inherit;
+    width: 100%;
+    /* border: none;
+    outline: none; */
+}
+
 .amount-column div {
     display: flex;
 }

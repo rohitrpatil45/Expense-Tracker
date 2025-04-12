@@ -1,6 +1,14 @@
 import React from 'react'
 
+
+
+// import the data form the context components
+import {mydata} from '../contexts/context'
+
+
 function ExpenseTable() {
+
+  console.log(mydata)
   return (
     <table className="expense-table">
             <thead>
@@ -47,21 +55,8 @@ function ExpenseTable() {
                 <td>Grocery</td>
                 <td>₹40</td>
               </tr>
-              <tr>
-                <td>Shirt</td>
-                <td>Clothes</td>
-                <td>₹600</td>
-              </tr>
-              <tr>
-                <td>Vegetables</td>
-                <td>Grocery</td>
-                <td>₹100</td>
-              </tr>
-              <tr>
-                <td>Electricity Bill</td>
-                <td>Bills</td>
-                <td>₹1100</td>
-              </tr>
+           
+           
               <tr>
                 <th>Total</th>
                 <th></th>
